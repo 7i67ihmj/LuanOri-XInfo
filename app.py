@@ -272,7 +272,7 @@ def cached_endpoint(ttl=300):
 
 # -------------- Routes Endpoints --------------
 
-@app.route('/uc-info')
+@app.route('/luanori-info')
 @require_api_key
 @cached_endpoint()
 def get_account_info():
